@@ -17,8 +17,8 @@
     "allowJs": true,
     "resolveJsonModule": true,
     "paths": {
-      "@model": ["libs/handball-analyzer-model"],
-      "@model/*": ["libs/handball-analyzer-model/*"]
+      "@model": ["libs2/handball-analyzer-model"],
+      "@model/*": ["libs2/handball-analyzer-model/*"]
     }
   }
 }

@@ -11,7 +11,7 @@ module.exports = {
   testEnvironment: 'node',
   moduleDirectories: ['node_modules', 'src'],
   moduleNameMapper: {
-    '^@model(.*)$': '<rootDir>/src/libs/handball-analyzer-model$1',
+    '^@model(.*)$': '<rootDir>/src/libs2/handball-analyzer-model$1',
   },
   setupFiles: ['./src/jest-setup-file.ts'],
   globals: {
