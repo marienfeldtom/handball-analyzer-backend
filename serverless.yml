@@ -2,6 +2,7 @@ service: handball-analyzer-backend
 frameworkVersion: '3'
 useDotenv: true
 
+
 provider:
   name: aws
   runtime: nodejs14.x
