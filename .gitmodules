@@ -1,3 +1,0 @@
-[submodule "src/libs/handball-analyzer-model"]
-	path = src/libs/handball-analyzer-model
-	url = git@github.com:marienfeldtom/handball-analyzer-model.git
