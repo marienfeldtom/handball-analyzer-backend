@@ -14,11 +14,6 @@
     "start": "concurrently -r -k \"yarn build:watch\" \"yarn start:sls\"",
     "checkTs": "tsc --noEmit",
     "lint": "eslint \"src/**/*.ts\" --fix",
-    "test": "jest --runInBand",
-    "test:ci": "jest --ci --runInBand",
-    "test:watch": "jest --watch --runInBand",
-    "test:cov": "jest --coverage --runInBand",
-    "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
     "deploy": "sls deploy",
     "prepare": "husky install"
   },
